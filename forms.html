@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Request Form | Adden Technology Limited</title>       
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <main>
+            <h1 class="h1" style="text-align:center">Welcome</h1>
+            <div class="container">
+                <div class="row align-items-start">
+
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="align-with-form">
+                                    <blockquote class="quote">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-quote svg-icon" viewBox="0 0 16 16">
+                                            <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+                                        </svg>
+                                        Great things in business are never done by one person; they're done by a team of people. – Steve Jobs
+                                    </blockquote>
+                                    <p class="intro">
+                                        In the spirit of this profound insight, at Adden Technology Limited, teamwork is not just a practice but our fundamental ethos. We understand that collaborative efforts yield the most innovative and effective solutions. It is this belief in the power of working together that inspires our approach to every project and client interaction. To extend this collaborative spirit to our valued clients and partners, we have introduced a request form on our website.</p>
+                                        <p>This form is a direct line to our team, ensuring that your ideas, needs, and visions are heard and addressed. Together, we can achieve greater success, innovate more creatively, and navigate the complex terrain of legal technology with confidence and expertise.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                <div class="col-lg-6">
+                    <!-- <div class="container"> -->
+                            <h4>Addentech Request Form</h4>
+                            <form id="requestForm" method="post">
+                                <div>
+                                    <label for="name">Enter your name:</label><br>
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Selasie Ametor" required min="3">
+                                </div>
+                                <div>
+                                    <label for="email">Enter your Email Address:</label><br>
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="person@mail.com" required>
+                                </div>
+                                <div>
+                                    <label for="number">Enter your phone number:</label><br>
+                                    <input type="number" id="number" name="number" class="form-control" placeholder="0555 XXX XXX" required min="10">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <label for="departmentFromSelect">Kindly indicate your department</label><br>
+                                    <select class="form-control" id="departmentFromSelect" required>
+                                        <option selected hidden>Select department</option>
+                                        <option value="Management">Management</option>
+                                        <option value="Software">Software</option>
+                                        <option value="Datapool">Datapool</option>
+                                        <option value="Product">Product</option>
+                                        <option value="Marketing">Marketing</option>
+                                        <option value="CustomerService">CustomerService</option>
+                                        <option value="DLNews">DLNews</option>
+                                        <option value="GraphicsVideo">Graphics and Video</option>
+                                    </select>
+                                </div>
+            
+                                <div class="form-group">
+                                    <label for="departmentToSelect">Which department is your request directed to?</label><br>
+                                    <select class="form-control" id="departmentToSelect" required>
+                                        <option selected hidden>Select department</option>
+                                        <option value="Management">Management</option>
+                                        <option value="Software">Software</option>
+                                        <option value="Datapool">Datapool</option>
+                                        <option value="Product">Product</option>
+                                        <option value="Marketing">Marketing</option>
+                                        <option value="CustomerService">CustomerService</option>
+                                        <option value="DLNews">DLNews</option>
+                                        <option value="GraphicsVideo">Graphics and Video</option>
+                                    </select>
+                                </div>
+            
+                                <div class="form-group">
+                                    <label for="requestType">Kindly select the nature of your request</label><br>
+                                    <select class="form-control" id="requestType" required>
+                                        <option selected hidden>Select request type</option>
+                                        <option value="Technical">Technical Support and IT Services</option>
+                                        <option value="HR">Human Resources</option>
+                                        <option value="Admin">Finance and Administration</option>
+                                        <option value="Facilities">Facilities and Administration</option>
+                                        <option value="Marketing">Sales and Marketing</option>
+                                        <option value="Project">Project Management</option>
+                                        <option value="Customer">Customer Service</option>
+                                        <option value="Personal">Personal Requests</option>
+                                    </select>
+                                </div>
+                                <!-- <div class="form-group">
+                                    <label for="requestDetails">Request Details</label>
+                                    <textarea class="form-control" id="requestDetails" rows="3"></textarea>
+                                </div> -->
+                                <button type="submit" class="btn btn-primary">Continue</button>
+                            </form> 
+                        </div>
+                    <!-- </div> -->
+                </div>
+            
+            </div>
+            
+                <div class="container mt-5">
+                    <h2>Resource Panel</h2>
+                    <details>
+                        <summary> What types of requests fall under Technical Support and IT Services</summary>
+                        <p>This category should be selected for issues related to software problems, hardware malfunctions, network connectivity issues, and any other IT-related support.</p>
+                    </details>
+                    <details>
+                        <summary> When should I choose 'Human Resources' as my request category?</summary>
+                        <p>Select 'Human Resources' for inquiries or requests related to employee relations, company policies, payroll, benefits, hiring processes, and other HR-related matters.</p>
+                    </details>
+                    <details>
+                        <summary> What requests fall under the 'Finance and Administration' category?</summary>
+                        <p>This includes requests related to financial processes, budgeting, administrative assistance, office supplies, and any other financial or administrative services.</p>
+                    </details>
+                    <details>
+                        <summary> Which types of requests should go to 'Facilities and Administration'?</summary>
+                        <p>Choose this for requests related to office maintenance, facility management, safety issues, and general administrative support.</p>
+                    </details>
+                    <details>
+                        <summary>When to direct requests to the 'Sales and Marketing' department?</summary>
+                        <p>Use this category for requests associated with marketing campaigns, sales strategies, customer outreach, promotional activities, and other related marketing or sales tasks.</p>
+                    </details>
+                    <details>
+                        <summary> What should I consider as a 'Project Management' request?</summary>
+                        <p>This category is for requests related to project planning, coordination, resource allocation, timeline management, and other aspects of project management.</p>
+                    </details>
+                    <details>
+                        <summary> What constitutes a 'Customer Service' request?</summary>
+                        <p>Choose 'Customer Service' for requests pertaining to customer support, feedback management, client relations, and any other customer service-related activities.</p>
+                    </details>
+
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       
+        <footer class="mt-5 text-center text-lg-start bg-body-tertiary text-muted">
+            <h4>Need Help?</h4>
+            <p>Contact support at <a href = "mailto: info@dennislawgh.com">info@dennislawgh.com</a></p>
+            &copy; Adden Technology Limited | 2023
+        </footer>
+    </body>
+</html>

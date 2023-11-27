@@ -1,0 +1,103 @@
+body {
+    background-color: #e7f0f7;
+    color: #333;
+}
+
+.card-body {
+    padding-top: 0;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #d1e0e5;
+}
+
+.quote {
+    color: #0d6efd;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0c5db9;
+}
+
+.header-image {
+    background: url(pexels-kammeran-gonzalezkeola-12993379.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.align-with-form {
+    margin-top: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.blockquote {
+    font-size: 12px;
+    margin: 2em 0;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+    line-height: 1;
+}
+svg {
+    fill: #007bff;
+    height: 1em;
+    width: 1em;
+    vertical-align: -0.25em;
+    margin-right: 0.5em;
+}
+.bi-quote {
+    font-size: 2em;
+    color: #007bff;
+}
+.blockquote p {
+    margin: 0;
+}
+footer {
+    background-color: lightgrey;
+    color: darkgray;
+    padding: 20px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-top: 1px solid #e9ecef;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+footer h4 {
+    margin-bottom: 15px;
+}
+
+details {
+    margin-bottom: 10px;
+    border: 1px solid #e9ecef;
+    border-radius: 0.25rem;
+    padding: 10px;
+    background-color: #f8f9fa
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] {
+    background-color: #e2e6ea;
+}
+
+details p {
+    padding: 5px 0 0 0;
+}
